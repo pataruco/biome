@@ -73,7 +73,7 @@ export default defineConfig({
 				es: {
 					label: "Español",
 					lang: "es",
-				}
+				},
 			},
 			sidebar: [
 				{
@@ -92,7 +92,12 @@ export default defineConfig({
 				},
 				{
 					label: "Guides",
-					translations: { ja: "ガイド", "zh-CN": "指南", "pt-BR": "Guias", es: "Guías" },
+					translations: {
+						ja: "ガイド",
+						"zh-CN": "指南",
+						"pt-BR": "Guias",
+						es: "Guías",
+					},
 					items: [
 						{
 							label: "Getting Started",
@@ -160,7 +165,7 @@ export default defineConfig({
 						ja: "ツール",
 						"zh-CN": "工具",
 						"pt-BR": "Ferramentas",
-						es:	"Herramientas"
+						es: "Herramientas",
 					},
 					items: [
 						{
@@ -281,7 +286,12 @@ export default defineConfig({
 				},
 				{
 					label: "Recipes",
-					translations: { ja: "レシピ", "zh-CN": "实例", "pt-BR": "Receitas", es: "Recetas" },
+					translations: {
+						ja: "レシピ",
+						"zh-CN": "实例",
+						"pt-BR": "Receitas",
+						es: "Recetas",
+					},
 					items: [
 						{
 							label: "Continuous Integration",
